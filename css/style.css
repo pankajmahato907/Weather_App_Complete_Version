@@ -1,0 +1,106 @@
+/* Styles for the main container holding the weather app */
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+body {
+  background-color: #b15623;
+  background-image: url(https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2t5fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+}
+user agent stylesheet
+body {
+  display: block;
+  margin: 8px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: rgb(22, 36, 25);
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+#city-input {
+  padding: 5px;
+  width: 200px;
+  transition: all .5s;
+  border: 1px solid transparent;
+  outline: none;
+  transition: all .3s;
+}
+#city-input:hover,#city-input:active{
+  border-color: #000;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#error-message {
+  color: rgb(248, 244, 241);
+  margin-bottom: 20px;
+}
+
+#weather-info {
+  color: rgb(16, 0, 0);
+  text-align: center;
+  background-color: rgb(255 255 255 / 63%);
+  padding: 20px;
+  box-shadow: -1px -3px 14px rgba(0,0,0,.5);
+}
+
+.city {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.date,
+.condition {
+  margin-bottom: 5px;
+}
+
+.weather-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px solid #4CAF50;
+  border-radius: 5px;
+}
+
+.temperature,
+.pressure,
+.wind-speed,
+.humidity {
+  margin-bottom: 5px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+#icon{
+  
+  box-shadow: 0 0 4px rgba(0,0,0,.5);
+  background: rgb(0 0 0 / 25%);
+}
+.middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.curr-temp{
+  font-size: 30px;
+}

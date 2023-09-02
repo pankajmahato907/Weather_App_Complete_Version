@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather App</title>
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Weather App</h1>
+    <!-- Container for the search input and button -->
+    <div class="search-container">
+      <!-- Input field for the user to enter the city name -->
+      <input type="text" id="city-input" placeholder="Enter city name">
+      <!-- Button that triggers the weather search when clicked -->
+      <button onclick="searchWeather()">Search</button>
+    </div>  
+    <!-- Container to display error messages (if any) -->
+    <div id="error-message"></div>
+    <!-- Container to display weather information --> 
+    <div id="weather-info">
+    </div>
+    <section class="history">
+      <button class="historyButton">Show history</button>
+  </section>
+  </div>
+  
+  <script src="./js/script.js"></script>
+</body>
+</html>
